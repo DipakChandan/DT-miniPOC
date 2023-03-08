@@ -23,22 +23,24 @@
 -- http://127.0.0.1:8080
 -- Also access through external IP 
 
-## How to Load excell data to Sql lite DB (There is already a default excell file in place)
+## How to Load excell data to DB (Sql lite) through Data API pipeline
 
   Run following command:
 
+  Syntax: /usr/local/bin/python3 load.py --file <filename>
+	usage: load.py [-h] [--file FILE]
 
- cd DT-miniAI/etl_loader
- ./python load.py
+	Example:
 
+ 	cd DT-miniAI/etl_loader
+ 	/usr/local/bin/python3 load.py --file ../csv_io/DEM_Challenge_Section1_DATASET.xlsx
 
-	[Note: If you want to load a new file then copy your file to DT-miniAI/csv_io and modify file name dtminiAI/settings.py in CSV_FILE & GRAPH_FILE section]
+ 	[Note: This is a default file in the repo. You can have your own file]
 
-	[There will be an enhancement to accept the file as external input file]
-
+	
  ## How to check graph file
 
- 	Above loading process will create a graph file under DT-miniAI/csv_io
+ 	Above loading process will create a graph file under DT-miniAI/csv_io. Graph build part is in progress.
 
  ## To verify the data in table
 
