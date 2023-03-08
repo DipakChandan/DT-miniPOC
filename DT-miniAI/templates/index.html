@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+    {% extends 'base.html' %}
+    {% block content %}
+        <h1>Dashboard</h1>
+        <div class="row">
+            {% for customer in customers %}
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"> {{ customer.first_name }}</h5>
+                        <h5 class="card-title"> {{ customer.last_name }}</h5>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                </div>
+             {% endfor %}
+        </div>
+    {% endblock %}
+</head>
+<body>
+
+</body>
+</html>

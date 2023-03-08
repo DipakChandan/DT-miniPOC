@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  dt-miniai:
+    build: .
+    container_name: dt-miniai
+    image: dchandan001/dt-miniai:1.0.1
+    ports:
+    - 8080:8080
