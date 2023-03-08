@@ -14,8 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-CSV_FILE = "../csv_io/DEM_Challenge_Section1_DATASET.xlsx"
-GRAPH_FILE = "../csv_io/GRAPH_DEM_Challenge_Section1_DATASET.xlsx"
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
