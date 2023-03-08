@@ -1,14 +1,14 @@
 <a href="https://docker.com">
-    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/docker_logo.png" alt="Docker logo" title="Docker" align="right" height="100" />
+    <img src="https://github.com/DipakChandan/DT-miniPOC/blob/main/assets/docker_logo.png" alt="Docker logo" title="Docker" align="right" height="100" />
 </a>
 <a href="https://terraform.io">
-    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/terraform_logo.png" alt="Terraform logo" title="Terraform" align="right" height="100" />
+    <img src="https://github.com/DipakChandan/DT-miniPOC/blob/main/assets/terraform_logo.png" alt="Terraform logo" title="Terraform" align="right" height="100" />
 </a>
 <a href="https://minikube.sigs.k8s.io">
-    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/minikube_logo.png" alt="Minikube logo" title="Minikube" align="right" height="100" />
+    <img src="https://github.com/DipakChandan/DT-miniPOC/blob/main/assets/minikube_logo.png" alt="Minikube logo" title="Minikube" align="right" height="100" />
 </a>
 <a href="https://www.djangoproject.com">
-    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/django_logo.png" alt="Django logo" title="Django" align="right" height="100" />
+    <img src="https://github.com/DipakChandan/DT-miniPOC/blob/main/assets/django_logo.png" alt="Django logo" title="Django" align="right" height="100" />
 </a>
 
 
