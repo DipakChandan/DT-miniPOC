@@ -1,10 +1,25 @@
+<a href="https://docker.com">
+    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/docker_logo.png" alt="Docker logo" title="Docker" align="right" height="100" />
+</a>
+<a href="https://terraform.io">
+    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/terraform_logo.png" alt="Terraform logo" title="Terraform" align="right" height="100" />
+</a>
+<a href="https://minikube.sigs.k8s.io">
+    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/minikube_logo.png" alt="Minikube logo" title="Minikube" align="right" height="100" />
+</a>
+<a href="https://www.djangoproject.com">
+    <img src="https://raw.githubusercontent.com/DipakChandan/DT-miniPOC/assets/django_logo.png" alt="Django logo" title="Django" align="right" height="100" />
+</a>
+
+
 ## Information about this project
 - There are two parts to this open source repository 
-	- Part-1: To setup a local Kubernet (K8S) Cluster using Terraform + minikube as K8S cluster manager (Infrastructure-as-code)  
+	- Part-1: To setup a local Kubernet (K8S) Cluster using Terraform + minikube for K8S cluster manager (Infrastructure-as-code)  
 		- It has sample code for *How to develop Terraform Custom Provider*
 		- It has modules for environment specific (Versionized to be implemented)
-	- Part-2: To build a docker image with a file loader api and a dashboard (in progress)
-		- Dicker composer in place to upload future image (image versioning recommended)
+	- Part-2: To build a docker image with a file loader api and a dashboard (dashboard in progress)
+		- Docker composer in place to upload future image (image versioning recommended)
+		- Django framework implemented for the API and the application
 - Feel free to explore the repo content, and add :star: or fork if you like the content
 - Repo is open for contributions and if you want to contribute please read the **important notice** for contribution guidelines
 
